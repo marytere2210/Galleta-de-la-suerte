@@ -1,0 +1,76 @@
+.packing{
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1.25em;
+  gap:1.5em;
+
+}
+
+.title{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: orange;
+  text-shadow: 3px 3px 5px black;
+  margin: 0;
+}
+
+
+.file{
+  margin: 0;
+  display: grid;
+  max-width: 600px;
+  height: 290px;
+  background-image: url('/rectangle1.svg');
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: center;
+  place-content: center;
+}
+
+.file_body{
+  padding:  0 1.25em;
+}
+
+.file__phrase{
+  margin: 0; 
+  font-family:monospace;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+}
+
+.btn{
+  width:  fit-content;
+  margin: 0 auto;
+  border: 2px solid white;
+  padding: .75em 2em;
+  background-color: rgba(255, 255, 255, 0.568);
+  backdrop-filter: blur(5px);
+  font-size: 20px;
+  font-family:monospace;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover
+{
+  background-color: orange;
+  
+}
+
+.file__quote{
+  font-size: 26px;
+  color: rgb(197, 185, 167)
+}
